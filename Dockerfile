@@ -1,6 +1,6 @@
 From centos:latest
 
-RUN yum install python36
+RUN yum install python36 -y
 
 COPY DisplayName.py .
 
