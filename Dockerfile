@@ -4,6 +4,6 @@ RUN yum install python36 -y
 
 COPY yourname.py .
 
-CMD python3 DisplayName.py "harshi"
+CMD python3 yourname.py "harshi"
 
 
