@@ -1,2 +1,2 @@
-name=input("Enter name:")
-print(name)
+import sys
+print("Your name:",sys.argv[1])
